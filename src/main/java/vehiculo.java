@@ -30,8 +30,16 @@ JOptionPane.showMessageDialog(null,"El modelo del taxi es :"+taxi.modelo);
 JOptionPane.showMessageDialog(null,"La marca del taxi es :"+taxi.marca);
 JOptionPane.showMessageDialog(null,"El odometro del taxi es :"+taxi.odometro);
 
+vehiculo bus =new vehiculo();
+bus.color =JOptionPane.showInputDialog("Digite el color del bus");
+bus.marca =JOptionPane.showInputDialog("Digite la marca del bus");
 
+bus.modelo =JOptionPane.showInputDialog("Digite el modelo del bus");
+bus.odometro =Integer.parseInt(JOptionPane.showInputDialog("Digite el odometro del bus"));
 
-
+JOptionPane.showMessageDialog(null,"El color del taxi es :"+bus.color);
+JOptionPane.showMessageDialog(null,"El modelo del taxi es :"+bus.modelo);
+JOptionPane.showMessageDialog(null,"La marca del taxi es :"+bus.marca);
+JOptionPane.showMessageDialog(null,"El odometro del taxi es :"+bus.odometro);
 } 
 }
